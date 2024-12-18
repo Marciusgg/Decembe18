@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Froyo Wonderland</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎄 Holiday Froyo Wonderland 🎄</h1>
+        </header>
+        <main>
+            <p>Season's greetings! What flavors of froyo would you like to enjoy today?</p>
+            <p class="prompt">Simply type them in, separated by commas, and let us whip up a winter wonderland of flavors just for you!</p>
+            <form id="froyoForm">
+                <input type="text" id="flavorsInput" placeholder="e.g., vanilla, chocolate, strawberry" required>
+                <button type="submit">Create My Froyo List 🎁</button>
+            </form>
+            <div id="results" class="hidden">
+                <h2>🎅 Froyo Flavor Totals: 🎅</h2>
+                <table id="resultsTable">
+                    <thead>
+                        <tr>
+                            <th>Flavor</th>
+                            <th>Servings</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

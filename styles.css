@@ -1,0 +1,100 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #ffffff, #cce7ff);
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0 0 20px;
+  color: #2e8b57;
+  text-shadow: 1px 1px 5px #aaa;
+}
+
+.prompt {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#froyoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#flavorsInput {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#flavorsInput:focus {
+  border-color: #2e8b57;
+  box-shadow: 0 0 5px #2e8b57;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #2e8b57;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1e6a40;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+#resultsTable {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#resultsTable th,
+#resultsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#resultsTable th {
+  background-color: #2e8b57;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
